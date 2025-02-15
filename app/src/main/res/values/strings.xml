@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HotKey</string>
+    
+    <!-- 메모 관련 -->
+    <string name="memo_list">MEMO</string>
+    <string name="add_memo">메모 추가</string>
+    <string name="memo_hint">메모 내용을 입력하세요</string>
+    <string name="save">저장</string>
+    <string name="cancel">취소</string>
+</resources>
