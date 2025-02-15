@@ -5,7 +5,7 @@
 # 작업내용 저장 시 디테일하게 작성
 
 > GitHub Repository: https://github.com/Parkerkyll/Hotkey
-> Latest Commit: 7c07027 (feat: 카카오 로그인 구현 및 보안 강화)
+> Latest Commit: 5c9571c (docs: 자동 로그인 기능 개선 작업 내용 추가)
 > 
 > 프로젝트의 기본 구조 및 데이터 모델에 대한 상세 내용은 [data_structure.md](data_structure.md) 문서를 참조하세요.
 > 데이터 흐름에 대한 상세 내용은 [data_flow.md](data_flow.md) 문서를 참조하세요.
@@ -24,7 +24,7 @@
 | 2025-02-14 | - | ViewModel 구조 개선 및 의존성 분리 | (031) |
 | 2025-02-15 | - | LocationManager 구현 및 에러 처리 개선 | (033) |
 | 2025-02-16 | 16eb123 | 카카오 로그인 구현 및 보안 강화 | (034) |
-| 2025-02-16 | 7c07027 | 자동 로그인 기능 개선 | (035) |
+| 2025-02-16 | 5c9571c | 자동 로그인 기능 개선 | (035) |
    - LoginTestActivity 구현
      - 카카오 로그인 버튼 UI 구현
      - 카카오톡/계정 로그인 분기 처리
