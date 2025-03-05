@@ -14,7 +14,14 @@ import com.parker.hotkey.domain.model.Memo
 
 class MemoAdapter(
     private val onDeleteClick: (Memo) -> Unit
-) : ListAdapter<Memo, MemoAdapter.MemoViewHolder>(MemoDiffCallback()) {
+) : ListAdapter<Memo, MemoAdapter.MemoViewHolder>(MemoDiffCallback) {
+
+    private var isEditMode = false
+
+    fun setEditMode(editMode: Boolean) {
+        isEditMode = editMode
+        notifyDataSetChanged()
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MemoViewHolder {
         val view = LayoutInflater.from(parent.context)
@@ -23,18 +30,22 @@ class MemoAdapter(
     }
 
     override fun onBindViewHolder(holder: MemoViewHolder, position: Int) {
-        holder.bind(getItem(position))
+        holder.bind(getItem(position), isEditMode)
     }
 
     class MemoViewHolder(
         itemView: View,
         private val onDeleteClick: (Memo) -> Unit
     ) : RecyclerView.ViewHolder(itemView) {
-        private val contentText: TextView = itemView.findViewById(R.id.memo_content)
+        private val contentTextView: TextView = itemView.findViewById(R.id.memo_content)
         private val deleteButton: ImageButton = itemView.findViewById(R.id.delete_button)
 
-        fun bind(memo: Memo) {
-            contentText.text = memo.content
+        fun bind(memo: Memo, isEditMode: Boolean) {
+            contentTextView.text = memo.content
+            
+            // 편집 모드에 따라 삭제 버튼 표시/숨김
+            deleteButton.visibility = if (isEditMode) View.VISIBLE else View.GONE
+            
             deleteButton.setOnClickListener { 
                 MaterialAlertDialogBuilder(itemView.context)
                     .setTitle("메모 삭제")
@@ -48,7 +59,7 @@ class MemoAdapter(
         }
     }
 
-    private class MemoDiffCallback : DiffUtil.ItemCallback<Memo>() {
+    object MemoDiffCallback : DiffUtil.ItemCallback<Memo>() {
         override fun areItemsTheSame(oldItem: Memo, newItem: Memo): Boolean {
             return oldItem.id == newItem.id
         }

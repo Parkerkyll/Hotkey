@@ -22,7 +22,7 @@ class EmptyMarkerDeleteWorker @AssistedInject constructor(
 ) : CoroutineWorker(appContext, workerParams) {
 
     companion object {
-        const val KEY_MARKER_ID = "marker_id"
+        const val KEY_MARKER_ID = "markerId"
     }
 
     override suspend fun doWork(): Result {
@@ -33,7 +33,7 @@ class EmptyMarkerDeleteWorker @AssistedInject constructor(
             Timber.d("마커 자동 삭제 작업 시작: $markerId")
             
             // 1. 마커가 존재하는지 확인
-            val marker = markerRepository.getMarkerById(markerId)
+            val marker = markerRepository.getById(markerId)
             if (marker == null) {
                 Timber.d("마커가 이미 삭제됨: $markerId")
                 return Result.success()
@@ -47,7 +47,7 @@ class EmptyMarkerDeleteWorker @AssistedInject constructor(
             }
 
             // 3. 마커 삭제
-            markerRepository.deleteMarker(markerId)
+            markerRepository.delete(markerId)
             Timber.d("빈 마커 자동 삭제 완료: $markerId")
 
             // 4. UI 업데이트를 위한 이벤트 발생
