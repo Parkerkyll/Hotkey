@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 배경 -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#E0E0E0" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <!-- 메모 아이콘 -->
+    <item android:gravity="center">
+        <shape android:shape="rectangle">
+            <solid android:color="#BDBDBD" />
+            <size android:width="100dp" android:height="120dp" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+    
+    <!-- 메모 헤더 -->
+    <item android:gravity="center" android:top="-30dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#9E9E9E" />
+            <size android:width="80dp" android:height="20dp" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+    
+    <!-- 메모 내용 라인 1 -->
+    <item android:gravity="center" android:top="0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#9E9E9E" />
+            <size android:width="80dp" android:height="6dp" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+    
+    <!-- 메모 내용 라인 2 -->
+    <item android:gravity="center" android:top="15dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#9E9E9E" />
+            <size android:width="80dp" android:height="6dp" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+    
+    <!-- 메모 내용 라인 3 -->
+    <item android:gravity="center" android:top="30dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#9E9E9E" />
+            <size android:width="60dp" android:height="6dp" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+
+    <!-- 텍스트 표시 대신 이미지 사용 -->
+    <item android:bottom="40dp" android:gravity="bottom|center_horizontal">
+        <shape android:shape="rectangle">
+            <solid android:color="#BDBDBD" />
+            <size android:width="120dp" android:height="24dp" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+</layer-list> 

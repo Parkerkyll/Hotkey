@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="snackbar_button_margin">8dp</dimen>
+    <dimen name="snackbar_min_height">72dp</dimen>
+    <dimen name="snackbar_padding_horizontal">16dp</dimen>
+    <dimen name="snackbar_padding_vertical">12dp</dimen>
+    <dimen name="snackbar_button_min_width">60dp</dimen>
+    <dimen name="snackbar_button_padding">8dp</dimen>
+    
+    <!-- 지도 관련 디멘션 -->
+    <dimen name="map_padding">16dp</dimen>
+    <dimen name="marker_padding">8dp</dimen>
+</resources> 

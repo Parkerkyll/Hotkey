@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HotKey</string>
+    
+    <!-- 메모 관련 -->
+    <string name="memo_list">MEMO</string>
+    <string name="add_memo">메모 추가</string>
+    <string name="save">저장</string>
+    <string name="cancel">취소</string>
+    
+    <!-- 위치 권한 관련 -->
+    <string name="location_permission_denied">위치 권한이 필요합니다</string>
+    <string name="settings">설정</string>
+    
+    <!-- 모드 관련 -->
+    <string name="edit_mode_button_description">편집 모드 전환</string>
+    <string name="read_mode">읽기 모드</string>
+    <string name="write_mode">쓰기 모드</string>
+    <string name="write_mode_message">마커 생성 및 메모 작성을 위해 쓰기 모드로 전환해야 합니다.</string>
+    <string name="to_write_mode">쓰기 모드로 전환</string>
+    <string name="to_read_mode">읽기 모드로 전환</string>
+    <string name="please_enter_write_mode">작업을 하려면 쓰기 모드로 전환해야 합니다.</string>
+    <string name="enter_write_mode">쓰기 모드 전환</string>
+    <string name="write_mode_active">쓰기 모드 활성화</string>
+    <string name="write_mode_auto_switch_message">쓰기 모드가 활성화되었습니다. %1$d초 후 자동으로 읽기 모드로 전환됩니다.</string>
+
+    <!-- 네비게이션 메뉴 -->
+    <string name="nav_notice">공지사항</string>
+    <string name="nav_help">사용법</string>
+    <string name="nav_profile">내 정보</string>
+    <string name="nav_attendance">출근부</string>
+    <string name="nav_tracking">내 동선 추적</string>
+    <string name="nav_report_bug">버그제보하기</string>
+    <string name="navigation_drawer_open">네비게이션 드로어 열기</string>
+    <string name="navigation_drawer_close">네비게이션 드로어 닫기</string>
+    <string name="drawer_open">메뉴 열기</string>
+    <string name="drawer_close">메뉴 닫기</string>
+    
+    <!-- 사용법 화면 -->
+    <string name="help_title">앱 사용 방법</string>
+    <string name="help_mode_title">1. 읽기 모드 / 쓰기 모드 (기본 읽기모드)</string>
+    <string name="help_mode_desc">읽기 모드와 쓰기 모드 간에 전환을 통해 읽기 모드에서는 읽기가 가능하고 쓰기 모드에서는 메모를 작성 가능</string>
+    <string name="help_mode_item1">읽기 모드: 마커, 메모 정보를 확인</string>
+    <string name="help_mode_item2">쓰기 모드: 마커(생성, 삭제), 메모(생성, 추가, 삭제) 가능</string>
+    <string name="help_mode_item3">쓰기 모드는 일정 시간 후 읽기 모드로 전환</string>
+    
+    <string name="help_mode_method_title">2. 모드 변경 방법</string>
+    <string name="help_mode_method_desc">1. 마커를 만들려는 위치 빈 지도 클릭 후 모드전환 \n2. 메모장에서 메모입력란을 클릭 후 모드전환 \n3. 지도 상단부의 모드전환 스위치 </string>
+    
+    <string name="help_marker_title">3. 마커 만들기 (쓰기모드)</string>
+    <string name="help_marker_desc"> 1.지도를 터치하여 원하는 위치에 마커를 추가 \n2. 메모장에 필요한 정보를 추가 후 저장을 클릭하여 정보를 저장.  \n3. 메모가 없거나, 저장을 누르지 않으면 마커는 삭제됨.</string>
+    
+    <string name="help_memo_title">4. 마커, 메모 삭제 / 메모 추가 (쓰기모드)</string>
+    <string name="help_memo_desc">1. 메모장에 마커 삭제 클릭 (마커삭제) \n2. 메모장에 휴지통 아이콘 클릭 개별 메모삭제  \n3. 마커 삭제 시 모든 메모 삭제  \n4. 메모 추가시 메모입력칸에 메모 입력 후 저장버튼  \n5. 메모는 수정이 불가능 / 필요시 삭제 후 재작성</string>
+    
+    <!-- 버그제보 화면 -->
+    <string name="report_bug_title">버그 제보하기</string>
+    <string name="report_bug_description">앱을 사용하면서 발견한 버그나 개선 사항을 알려주세요.</string>
+    <string name="report_bug_title_hint">제목</string>
+    <string name="report_bug_description_hint">상세 내용</string>
+    <string name="report_bug_submit">제출하기</string>
+    <string name="report_bug_success">버그 제보가 접수되었습니다. 감사합니다!</string>
+    <string name="report_bug_validation_error">제목과 내용을 모두 입력해주세요.</string>
+    
+    <string name="back_to_map">지도로 돌아가기</string>
+    <string name="image_zoom_desc">확대된 이미지</string>
+</resources>

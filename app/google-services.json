@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "642936662586",
+    "project_id": "hotkey-20143",
+    "storage_bucket": "hotkey-20143.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642936662586:android:dd417eae594dce7495e303",
+        "android_client_info": {
+          "package_name": "com.parker.hotkey"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoG52_qPzCUPLu8jOfJZo6pcMOrXRraTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

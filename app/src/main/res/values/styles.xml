@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 스위치 스타일 -->
+    <style name="Widget.App.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Switch</item>
+        <item name="android:minWidth">85dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:scaleX">1.2</item>
+        <item name="android:scaleY">1.2</item>
+        <item name="android:thumbOffset">8dp</item>
+        <item name="switchPadding">8dp</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Switch" parent="">
+        <item name="colorSurface">@color/switch_thumb_off</item>
+        <item name="colorOnSurface">@color/switch_track_off</item>
+        <item name="colorSecondary">@color/switch_track_on</item>
+        <item name="colorOnSecondary">@color/switch_thumb_on</item>
+    </style>
+    
+    <!-- 공통 툴바 스타일 -->
+    <style name="Widget.App.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/white</item>
+        <item name="android:elevation">4dp</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+    
+    <!-- 툴바 제목 스타일 -->
+    <style name="TextAppearance.App.ToolbarTitle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    
+    <!-- 뒤로가기 버튼 스타일 -->
+    <style name="Widget.App.BackButton" parent="Widget.AppCompat.ImageButton">
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:src">@android:drawable/ic_media_previous</item>
+    </style>
+    
+    <!-- 기본 버튼 스타일 -->
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    
+    <!-- 지도로 돌아가기 버튼 스타일 -->
+    <style name="Widget.App.Button.BackToMap" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+    
+    <!-- 카드뷰 스타일 -->
+    <style name="Widget.App.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+    
+    <!-- 텍스트 스타일 - 제목 -->
+    <style name="TextAppearance.App.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- 텍스트 스타일 - 부제목 -->
+    <style name="TextAppearance.App.Subtitle" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- 텍스트 스타일 - 본문 -->
+    <style name="TextAppearance.App.Body" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <!-- 공통 프로그레스바 스타일 -->
+    <style name="Widget.App.ProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    
+    <!-- 메모 입력 필드 스타일 -->
+    <style name="Widget.App.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginHorizontal">16dp</item>
+        <item name="android:layout_marginVertical">8dp</item>
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+    </style>
+    
+    <!-- 모드 전환 바 스타일 -->
+    <style name="Widget.App.ModeBar" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+    
+    <!-- 모드 전환 텍스트 스타일 -->
+    <style name="TextAppearance.App.ModeText" parent="TextAppearance.App.Title">
+        <item name="android:textAlignment">center</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+</resources> 

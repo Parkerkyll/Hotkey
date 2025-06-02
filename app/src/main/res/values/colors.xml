@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 기본 머티리얼 디자인 색상 -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- 앱 기본 테마 색상 -->
+    <color name="primary">#FF6200EE</color>
+    <color name="primary_dark">#FF3700B3</color>
+    <color name="primary_light">#FFBB86FC</color>
+    <color name="accent">#FF03DAC5</color>
+    <color name="accent_dark">#FF018786</color>
+    
+    <!-- 텍스트 색상 -->
+    <color name="text_primary">#DE000000</color> <!-- 87% 검정 -->
+    <color name="text_secondary">#99000000</color> <!-- 60% 검정 -->
+    <color name="text_hint">#61000000</color> <!-- 38% 검정 -->
+    <color name="text_white">#FFFFFFFF</color>
+    <color name="text_white_secondary">#B3FFFFFF</color> <!-- 70% 하얀색 -->
+    
+    <!-- 모드별 색상 -->
+    <color name="mode_bar_background">#FFFFFF</color>
+    <color name="read_mode_text">#1976D2</color>
+    <color name="read_mode_color">#FF2196F3</color>
+    <color name="write_mode_text">#2E7D32</color>
+    <color name="write_mode_color">#FF4CAF50</color>
+    
+    <!-- 스위치 색상 -->
+    <color name="switch_track_off">#FFDDDDDD</color>
+    <color name="switch_track_on">@color/write_mode_text</color>
+    <color name="switch_thumb_off">#FFFFFFFF</color>
+    <color name="switch_thumb_on">#FFFFFFFF</color>
+    
+    <!-- 배경 색상 -->
+    <color name="background_default">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider">#1F000000</color> <!-- 12% 검정 -->
+    
+    <!-- 버튼 색상 -->
+    <color name="button_primary">@color/primary</color>
+    <color name="button_text">@color/text_white</color>
+    <color name="button_secondary">#FFFFFF</color>
+    <color name="button_secondary_text">@color/text_primary</color>
+</resources>

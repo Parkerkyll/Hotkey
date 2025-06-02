@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 배경 -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#E0E0E0" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <!-- 지도 배경 -->
+    <item android:gravity="center">
+        <shape android:shape="rectangle">
+            <solid android:color="#BDBDBD" />
+            <size android:width="160dp" android:height="120dp" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+    
+    <!-- 도로 표현 - 가로 -->
+    <item android:gravity="center">
+        <shape android:shape="rectangle">
+            <solid android:color="#757575" />
+            <size android:width="160dp" android:height="8dp" />
+        </shape>
+    </item>
+    
+    <!-- 도로 표현 - 세로 -->
+    <item android:gravity="center">
+        <shape android:shape="rectangle">
+            <solid android:color="#757575" />
+            <size android:width="8dp" android:height="120dp" />
+        </shape>
+    </item>
+    
+    <!-- 현재 위치 마커 -->
+    <item android:gravity="center">
+        <shape android:shape="oval">
+            <solid android:color="#2196F3" />
+            <size android:width="16dp" android:height="16dp" />
+        </shape>
+    </item>
+    
+    <!-- 마커 1 -->
+    <item android:gravity="center" android:top="-30dp" android:start="30dp">
+        <shape android:shape="oval">
+            <solid android:color="#F44336" />
+            <size android:width="12dp" android:height="12dp" />
+        </shape>
+    </item>
+    
+    <!-- 마커 2 -->
+    <item android:gravity="center" android:top="30dp" android:end="30dp">
+        <shape android:shape="oval">
+            <solid android:color="#4CAF50" />
+            <size android:width="12dp" android:height="12dp" />
+        </shape>
+    </item>
+    
+    <!-- 마커 3 -->
+    <item android:gravity="center" android:top="20dp" android:start="20dp">
+        <shape android:shape="oval">
+            <solid android:color="#FFC107" />
+            <size android:width="12dp" android:height="12dp" />
+        </shape>
+    </item>
+    
+    <!-- 텍스트 표시 대신 이미지 사용 -->
+    <item android:bottom="40dp" android:gravity="bottom|center_horizontal">
+        <shape android:shape="rectangle">
+            <solid android:color="#BDBDBD" />
+            <size android:width="120dp" android:height="24dp" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+</layer-list> 

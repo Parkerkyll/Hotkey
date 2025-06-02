@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- 오토바이 몸체 - 빨간색 -->
+    <path
+        android:fillColor="#FF5D5D"
+        android:pathData="M75,45 L65,40 L40,40 L35,55 L45,65 L75,55 Z" />
+    
+    <!-- 오토바이 앞부분 -->
+    <path
+        android:fillColor="#EE3B3B"
+        android:pathData="M75,45 L85,50 L80,60 L75,55 Z" />
+    
+    <!-- 앞 바퀴 -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M85,60m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+    
+    <!-- 뒷 바퀴 -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M35,60m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+    
+    <!-- 핸들 -->
+    <path
+        android:fillColor="#666666"
+        android:pathData="M75,45 L70,30 L75,25" />
+    
+    <!-- 라이더 몸체 - 주황색 -->
+    <path
+        android:fillColor="#FF9933"
+        android:pathData="M65,25 L55,25 L50,40 L60,45 L65,40 Z" />
+    
+    <!-- 라이더 다리 - 네이비 -->
+    <path
+        android:fillColor="#000066"
+        android:pathData="M55,40 L45,60 L35,60 L45,40 Z" />
+    
+    <!-- 라이더 헬멧 - 노란색 -->
+    <path
+        android:fillColor="#FFCC00"
+        android:pathData="M60,20m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+    
+    <!-- 헬멧 바이저 - 진한 회색 -->
+    <path
+        android:fillColor="#2F4F4F"
+        android:pathData="M65,20 L60,18 L55,20 L60,25 Z" />
+    
+    <!-- 연결부분 - 핸들과 다리사이 -->
+    <path
+        android:fillColor="#666666"
+        android:pathData="M65,40 L60,45 L55,40" />
+    
+    <!-- 연결부분 - 엔진 및 배기관 -->
+    <path
+        android:fillColor="#666666"
+        android:pathData="M45,55 L35,55 L30,57" />
+</vector> 

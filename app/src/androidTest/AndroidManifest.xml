@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name=".TestApplication"
+        android:debuggable="true"
+        tools:ignore="HardcodedDebugMode"
+        tools:replace="android:debuggable">
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation
+        android:name="com.parker.hotkey.runner.CustomTestRunner"
+        android:targetPackage="com.parker.hotkey" />
+</manifest> 

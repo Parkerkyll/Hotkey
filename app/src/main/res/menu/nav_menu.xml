@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_notice"
+        android:icon="@drawable/ic_notice"
+        android:title="공지사항" />
+    
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="내 정보" />
+        
+    <item
+        android:id="@+id/nav_report_bug"
+        android:icon="@drawable/ic_bug"
+        android:title="버그제보하기" />
+        
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/ic_help"
+        android:title="사용법" />
+        
+    <item
+        android:id="@+id/nav_back_to_map"
+        android:icon="@drawable/ic_map"
+        android:title="지도로 돌아가기" />
+</menu> 

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <!-- 앱 로고 -->
+    <ImageView
+        android:id="@+id/ivAppLogo"
+        android:layout_width="333dp"
+        android:layout_height="267dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="앱 로고"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 앱 이름 -->
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="HOTKEY"
+        android:textColor="#333333"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivAppLogo" />
+
+    <!-- 경고 문구 -->
+    <TextView
+        android:id="@+id/tvWarning"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="민감한 개인정보는 민, 형사상 문제가 될 수 있습니다"
+        android:textColor="#F44336"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@id/btnKakaoLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAppName"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <!-- 추가 정보 -->
+    <ImageButton
+        android:id="@+id/btnKakaoLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
+        android:background="@null"
+        android:contentDescription="카카오 로그인"
+        android:src="@drawable/kakao_login_medium_narrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPrivacyInfo"
+        android:layout_width="368dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="로그인은 필수이며, 서비스 이용 약관 및 개인정보 처리방침에 동의하는 것으로 간주됩니다."
+        android:textColor="#0B0B0B"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnKakaoLogin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout> 

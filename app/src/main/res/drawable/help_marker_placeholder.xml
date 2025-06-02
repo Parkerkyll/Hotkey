@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 배경 -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#E0E0E0" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <!-- 지도 배경 -->
+    <item android:gravity="center" android:bottom="60dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#BDBDBD" />
+            <size android:width="160dp" android:height="120dp" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+    
+    <!-- 손가락 터치 포인트 -->
+    <item android:gravity="center" android:bottom="80dp">
+        <shape android:shape="oval">
+            <solid android:color="#55FFFFFF" />
+            <size android:width="30dp" android:height="30dp" />
+        </shape>
+    </item>
+    
+    <!-- 마커 생성 표시 -->
+    <item android:gravity="center" android:bottom="80dp">
+        <shape android:shape="oval">
+            <solid android:color="#F44336" />
+            <size android:width="16dp" android:height="16dp" />
+        </shape>
+    </item>
+    
+    <!-- 마커 스타일 옵션 패널 -->
+    <item android:gravity="center" android:top="70dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+            <size android:width="180dp" android:height="70dp" />
+            <corners android:radius="8dp" />
+            <stroke android:width="1dp" android:color="#BDBDBD" />
+        </shape>
+    </item>
+    
+    <!-- 마커 제목 필드 -->
+    <item android:gravity="center" android:top="40dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#EEEEEE" />
+            <size android:width="150dp" android:height="16dp" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+    
+    <!-- 마커 설명 필드 -->
+    <item android:gravity="center" android:top="65dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#EEEEEE" />
+            <size android:width="150dp" android:height="10dp" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+    
+    <!-- 마커 색상 옵션 1 -->
+    <item android:gravity="center" android:top="90dp" android:start="40dp">
+        <shape android:shape="oval">
+            <solid android:color="#F44336" /> <!-- 빨강 -->
+            <size android:width="18dp" android:height="18dp" />
+        </shape>
+    </item>
+    
+    <!-- 마커 색상 옵션 2 -->
+    <item android:gravity="center" android:top="90dp">
+        <shape android:shape="oval">
+            <solid android:color="#2196F3" /> <!-- 파랑 -->
+            <size android:width="18dp" android:height="18dp" />
+        </shape>
+    </item>
+    
+    <!-- 마커 색상 옵션 3 -->
+    <item android:gravity="center" android:top="90dp" android:end="40dp">
+        <shape android:shape="oval">
+            <solid android:color="#4CAF50" /> <!-- 초록 -->
+            <size android:width="18dp" android:height="18dp" />
+        </shape>
+    </item>
+    
+    <!-- 저장 버튼 -->
+    <item android:gravity="center" android:top="115dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#2196F3" />
+            <size android:width="80dp" android:height="20dp" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+</layer-list> 

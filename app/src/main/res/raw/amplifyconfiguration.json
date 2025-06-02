@@ -1,0 +1,16 @@
+{
+    "UserAgent": "aws-amplify-cli/2.0",
+    "Version": "1.0",
+    "api": {
+        "plugins": {
+            "awsAPIPlugin": {
+                "hotkey_api": {
+                    "endpointType": "REST",
+                    "endpoint": "YOUR_API_GATEWAY_ENDPOINT",
+                    "region": "YOUR_AWS_REGION",
+                    "authorizationType": "NONE"
+                }
+            }
+        }
+    }
+} 
