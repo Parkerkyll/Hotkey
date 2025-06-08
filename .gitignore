@@ -1,0 +1,40 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# 추가 제외 항목
+index.js
+/docs/
+.cursorrule
+
+# 보안 및 민감한 정보 파일
+/app/google-services.json
+/app/release/
+*.jks
+*.keystore
+keystore.properties
+
+# 로그 파일
+*.log
+
+# 임시 파일
+*.tmp
+*.temp
+
+# 빌드 출력 파일
+build_log.txt
+build_warnings.txt
+*.apk
+*.aab
